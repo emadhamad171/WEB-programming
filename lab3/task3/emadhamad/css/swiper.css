@@ -1,0 +1,15 @@
+.swiper {
+	aspect-ratio: 16 / 3;
+}
+.swiper iframe {
+}
+
+/* .swiper-button-prev {
+	width: 30px;
+	height: 30px;
+	background: white;
+	position: absolute;
+	top: 0;
+	left: -50%;
+	z-index: 2;
+} */

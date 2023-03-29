@@ -1,0 +1,42 @@
+@import url(./zero.css);
+@import url(./swiper.css);
+
+@import url(./1header.css);
+@import url(./2home.css);
+@import url(./home-animation.css);
+@import url(./3courses.css);
+@import url(./4pricing.css);
+@import url(./5app.css);
+@import url(./6footer.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Itim&display=swap");
+
+body {
+	font-family: "Inter";
+	background: rgba(23, 24, 54, 1);
+}
+
+:root {
+	--btn-color-active: #f5443b;
+	--btn-color-inactive: transparent;
+
+	--text-color-primary: #ffffff;
+	--text-color-secondary: rgba(255, 255, 255, 0.6);
+	--text-color-muted: rgba(255, 255, 255, 0.4);
+
+	--bg-color-primary: linear-gradient(102.01deg,
+			#23265c 1.96%,
+			#352a56 101.68%);
+	--bg-color-secondary: linear-gradient180deg, #202246 -53.38%,
+		rgba(40, 43, 87, 0.31) 100%;
+	--bg-color-muted: linear-gradient(180deg,
+			#202246 -53.38%,
+			rgba(40, 43, 87, 0.2) 100%);
+}
+
+.container {
+	max-width: 1250px;
+	padding: 0 25px;
+	margin: 0 auto;
+	height: 100%;
+}

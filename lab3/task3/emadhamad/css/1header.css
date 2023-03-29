@@ -1,0 +1,76 @@
+.header {
+	height: 80px;
+}
+.header__body {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.header__left {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex: 1 1 50%;
+}
+.header__logo {
+	font-family: "Itim";
+	font-size: 26.1239px;
+	line-height: 150%;
+	background: linear-gradient(180deg, #c7cafe 0%, #3d408f 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.header__links {
+	display: flex;
+	gap: 1.7rem;
+}
+.header__link a {
+	color: var(--text-color-secondary);
+}
+.svg-stroke {
+	stroke: var(--text-color-primary);
+}
+.header__settings {
+	display: flex;
+	justify-content: end;
+	gap: 3rem;
+	flex: 1 1 50%;
+}
+.header__link {
+}
+.header__lang {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+.header__lang-text {
+	color: var(--text-color-primary);
+}
+.header__lang-triangle {
+	height: 0px;
+	width: 0px;
+
+	border-width: 5px;
+	border-style: solid;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: var(--text-color-primary);
+	border-bottom-color: transparent;
+
+	position: relative;
+	top: 3px;
+}
+.header__butt {
+}
+.header__butt {
+	background: var(--btn-color-active);
+	color: var(--text-color-primary);
+	font-weight: 700;
+	width: 102px;
+	height: 41px;
+	border-radius: 6px;
+}
