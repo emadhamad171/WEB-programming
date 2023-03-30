@@ -164,6 +164,10 @@ body {
 	}
 }
 
+.lab-pane {
+	line-height: 1.7;
+	font-size: 1.2rem;
+}
 .tabs-content .tab-pane,
 .lab-content .lab-pane {
 	display: none;

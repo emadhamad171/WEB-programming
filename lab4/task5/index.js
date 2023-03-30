@@ -38,3 +38,8 @@ function power() {
 function operator(operator) {
 	input.value += operator;
 }
+
+document.getElementById("myButton");
+myButton.addEventListener("click", function () {
+	alert("Button clicked!");
+});
