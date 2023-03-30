@@ -61,6 +61,12 @@ body {
 	border-radius: 10px;
 	object-fit: cover;
 }
+.team-img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 10px;
+}
 
 .navigation {
 	padding: 20px;
