@@ -27,17 +27,6 @@ body {
 }
 
 .fix-container div {
-	transition: 0.3s;
-}
-
-.fix-container div:hover {
-	transform: scale(1.1);
-}
-.flex-container div {
-	transition: 0.3s;
-}
-
-.flex-container div:hover {
 	transform: scale(1.1);
 }
 
